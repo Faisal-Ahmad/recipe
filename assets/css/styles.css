@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#first
+ {
+    background-image: url("new.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.firststyle
+{    
+    position: relative;
+    top: 30%;
+    left: 5%;
+    display: inline-block;
+   
+}
+.firststyle h2{
+    letter-spacing: 0.13rem;
+    color: #7e7e7e;
+    font-size: 40px;
+}
+.firststyle p{
+    font-size: 35px;
+    line-height: 2.5rem;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    color: cadetblue;
+}
+.firststyle a{
+    color: #7e7e7e;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: .15rem;
+}
+.header
+{
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+button{
+    height: 35px;
+    width: 85px;
+    background-color: #fff;
+    border: 1px solid #0e0e0e;
+    border-radius:25px;
+    font-size: 15px;
+    margin: 0px 8px;
+    font-weight: bold;
+}
+button:hover{
+    color: #fff;
+    background-color: #514c4c;
+}
+.container2{
+    position: relative;
+    top: 50px;
+    left: 30%;
+    width: 750px;
+    height: 600px;
+    box-shadow: 3px 3px #a5a1a1bf;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.picture_box
+{   
+    display: inline-block;
+    width: 350px;
+}
+.input_field
+{
+    display: inline-block;
+    height: 600px;
+    width: 396px;
+    background-color: #f9f9f9;
+    position: relative;
+    left: -1%;
+}
+.loginbox
+{
+    position: absolute;
+    top: 15%;
+}
+.fields
+{
+    margin: 0px 20px;
+}
+.fields i
+{
+    font-size: 15px;
+}
+.fields input[type=text]
+{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 19px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.fields input[type=password]
+{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.fields input[type=date]
+{
+    padding: 5px;
+    font-size: 25px;
+}
+.fields select
+{
+    font-size: 20px;
+    padding: 6px;
+    background-color: transparent;
+}
+.fields span
+{
+    font-size: 22px;
+    padding: 3px;
+    background-color: transparent;
+}
+.fields span a
+{
+    text-decoration: none;
+    color: green;
+}
+.fields h1
+{
+    font-size: 50px;
+    color: cadetblue;
+}
+.user_container
+{
+    display: flex;
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: auto;
+    background: #aaf3c1f0;  
+}
+.user_menubar
+{
+    background: rgb(10,10,10,0.4);;
+    border: 1px solid black;
+    width: 12%;
+    height: 350px;
+}
+.panel1
+{
+    display: none;
+}
+.panel2
+{
+    display: none;
+}
+.panel3
+{
+    display: none;
+}
+li
+{
+    list-style: none;
+    padding: 6px 0px;
+}
+.options
+{
+    display: none;
+    padding: 0px 25px;
+}
+li:hover  .options
+{
+    display: block;
+}
+.left_button
+{
+    border: none;
+    border-radius: 0px;
+    box-shadow: 2px 2px;
+}
+.left_button_vari
+{
+    border: none;
+    border-radius: 0px;
+    box-shadow: 2px 2px;
+}
+.left_button_vari:hover
+{
+    border: none;
+    border-radius: 0px;
+    box-shadow: 2px 2px;
+    background-color: #fff;
+    color: black;
+}
+.main_header
+{
+    background: #bd9af39e;
+}
+.main_header span
+{
+    font-size: 30px;
+    padding: 0px 30px;
+}
+.main_header button
+{
+    float:right;
+}
+.showdata tr td
+{
+    padding: 10px 10px;
+    font-size: 30px;
+}

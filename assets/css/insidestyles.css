@@ -1,0 +1,51 @@
+body{
+    background-color: #3999ff;
+}
+.container
+{
+    background-color: #fff;
+    height: 100%;
+    padding: 20px 10px;
+}
+
+button:hover
+{
+    background-color: #615f5f;
+}
+.foot-space
+{
+    /* //margin-top:20px; */
+}
+.clear-fix{
+    margin-top:3%;
+}
+.form-control:disabled, .form-control[readonly]{
+    background-color: #f4f4f4;
+}
+.catagory
+{
+    background-color: rgb(10,10,10,0.4);
+}
+.catagory-container
+{
+    background-color: #d5d5d5;
+    padding: 10px;
+}
+.catagory h2
+{
+    color: white;
+}
+.catagory-container ul li
+{
+    font-size: 25px;
+}
+.card
+{
+    width:18rem;
+}
+.admin-bg
+{
+    background-color:rgb(10,10,10,0.4);
+    margin-left: 5px;
+    margin-top: -20px;
+}
